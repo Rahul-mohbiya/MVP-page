@@ -1,0 +1,132 @@
+/* Main container */
+.mainDiv {
+    height: 200vh;
+    width: 100%;
+    display: flex;
+    font-family: Cambria;
+    flex-direction: column;
+    align-items: center; /* Center align the divs */
+    padding: 10px;
+    margin-bottom: 50px;
+    background-color: rgb(227, 234, 234);
+  }
+  .h1a{
+    font-size: 50px;
+  }
+  
+  .h1{
+    margin-top: 60px;
+  }
+  /* Top section with 2 cards horizontally */
+  .topDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 40px;
+    max-width: 900px; /* Maximum width for the top div */
+    margin-bottom: 20px; /* Space between top and bottom div */
+  }
+  .btn{
+    height: 30px;
+    align-items: center;
+    width: 38vh;
+    margin: 30px;
+   color: rgb(250, 101, 101);
+   background-color: rgb(15, 15, 94);
+   border-radius: 12px;
+  }
+  .font{
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 3px;
+  }
+  
+  /* Individual card styles */
+  .card1 {
+    height: 35vh;
+    width: 100vh; /* Each card takes up 48% of the width */
+    background-color: white;
+    padding: 25px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Bottom section with 1 card centered */
+  .bottomDiv {
+    width: 65%; /* The bottom card takes up 50% of the width */
+    display: flex;
+    justify-content: center; /* Center the bottom card */
+  }
+  .size-6{
+    size: 20px;
+  }
+
+  .card2 {
+    height: 35vh;
+    width: 100vh; 
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    border-radius: 8px;
+    margin-left: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .h3a{
+    margin-top: 20px;
+  }
+  .bottomDiv {
+    height: 60vh;
+    margin-top: 30px;
+    width: 60%; /* Each card takes up 48% of the width */
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .card3a {
+    height: 50vh;
+    margin-top: 35px;
+    margin-left: 30px;
+    width: 48%; /* Each card takes up 48% of the width */
+    background-color: white;
+    text-align: left;
+   
+  }
+  
+  .startbtn{
+    height: 30px;
+    width: 38vh;
+    margin: 30px;
+    margin-left: 30px;
+    color: rgb(250, 101, 101);
+    border-radius: 12px;
+}
+  
+  .card3 {
+    height: 50vh;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-top: 35px;
+    width: 60%; /* Each card takes up 48% of the width */
+    background-color: white;
+    text-align: left;
+   
+  }
+
+.li{
+    margin-left: 10px;
+    background-color: rgb(15, 15, 94);
+    width: 30vh;
+    padding: 3px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+  /* Optional - Styling for card titles */
+.card:hover {
+    background-color: lightcoral; /* Change background on hover */
+    cursor: pointer;
+}
